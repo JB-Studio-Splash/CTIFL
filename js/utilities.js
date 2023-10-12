@@ -41,3 +41,12 @@ $(document).ready(function () {
         }
     });
 });
+
+// OPTIMISATEUR PRIX RESULT TOGGLE INPUT
+
+$(document).ready(function() {
+  $('.trigger-optimisateur').on('click', function() {
+    $(this).addClass('hidden');
+    $(this).siblings('.tab_input').removeClass('hidden');
+  });
+});

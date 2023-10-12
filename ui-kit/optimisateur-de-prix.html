@@ -1,12 +1,21 @@
-<!DOCTYPE html><html><head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
     <title>Optimisateur de prix</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="../css/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
     <script type="text/javascript">
       WebFont.load({
         google: {
@@ -84,11 +93,16 @@
                 </div>
                 <div class="optimisateur_result">
                   <div class="optimisateur-result_info">
-                    <img src="../images/Info.svg" loading="lazy" alt="" class="result-info_icon">
+                    <img
+                      src="../images/Info.svg"
+                      loading="lazy"
+                      alt=""
+                      class="result-info_icon"
+                    />
                     <p class="p_large">
-                      Les résultats de la simulation &nbsp;sont élaborés avec un taux
-                      de rendement préconisé pour les catégories 1 et Catégorie
-                      Extra
+                      Les résultats de la simulation &nbsp;sont élaborés avec un
+                      taux de rendement préconisé pour les catégories 1 et
+                      Catégorie Extra
                     </p>
                   </div>
                   <div class="optimisateur-result_wrapper">
@@ -96,17 +110,33 @@
                       <div class="optimisateur_grid-cell">
                         <div class="grid-cell_inner">
                           <p class="p_large">Prix de vente €/uvc HT</p>
-                          <p class="p_large">1,93 €</p>
+                          <div class="optimisateur_result-wrap">
+                            <a class="p_large trigger-optimisateur">1,93€</a>
+                            <input
+                              type="text"
+                              class="tab_input optimisateur-prix hidden"
+                              maxlength="256"
+                            />
+                          </div>
                         </div>
                       </div>
                       <div class="optimisateur_grid-cell">
                         <div class="grid-cell_inner">
-                          <p class="p_large">Productivité horaire du produit</p>
-                          <p class="p_large">22 UVC/h</p>
+                          <a class="p_large">Productivité horaire du produit</a>
+                          <div class="optimisateur_result-wrap">
+                            <a class="p_large trigger-optimisateur">22 UVC/h</a>
+                            <input
+                              type="text"
+                              class="tab_input optimisateur-prix hidden"
+                              maxlength="256"
+                            />
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <a href="#" class="p_link">Modifier les paramètres atelier</a>
+                    <a href="#" class="p_link"
+                      >Modifier les paramètres atelier</a
+                    >
                   </div>
                 </div>
               </div>
@@ -167,11 +197,16 @@
                 </div>
                 <div class="optimisateur_result">
                   <div class="optimisateur-result_info">
-                    <img src="../images/Info.svg" loading="lazy" alt="" class="result-info_icon">
+                    <img
+                      src="../images/Info.svg"
+                      loading="lazy"
+                      alt=""
+                      class="result-info_icon"
+                    />
                     <p class="p_large">
-                      Les résultats de la simulation &nbsp;sont élaborés avec un taux
-                      de rendement préconisé pour les catégories 1 et Catégorie
-                      Extra
+                      Les résultats de la simulation &nbsp;sont élaborés avec un
+                      taux de rendement préconisé pour les catégories 1 et
+                      Catégorie Extra
                     </p>
                   </div>
                   <div class="optimisateur-result_wrapper">
@@ -179,17 +214,33 @@
                       <div class="optimisateur_grid-cell">
                         <div class="grid-cell_inner">
                           <p class="p_large">Prix de vente €/uvc HT</p>
-                          <p class="p_large">1,93 €</p>
+                          <div class="optimisateur_result-wrap">
+                            <a class="p_large trigger-optimisateur">1,93€</a>
+                            <input
+                              type="text"
+                              class="tab_input optimisateur-prix hidden"
+                              maxlength="256"
+                            />
+                          </div>
                         </div>
                       </div>
                       <div class="optimisateur_grid-cell">
                         <div class="grid-cell_inner">
-                          <p class="p_large">Productivité horaire du produit</p>
-                          <p class="p_large">22 UVC/h</p>
+                          <a class="p_large">Productivité horaire du produit</a>
+                          <div class="optimisateur_result-wrap">
+                            <a class="p_large trigger-optimisateur">22 UVC/h</a>
+                            <input
+                              type="text"
+                              class="tab_input optimisateur-prix hidden"
+                              maxlength="256"
+                            />
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <a href="#" class="p_link">Modifier les paramètres atelier</a>
+                    <a href="#" class="p_link"
+                      >Modifier les paramètres atelier</a
+                    >
                   </div>
                 </div>
               </div>
@@ -198,8 +249,12 @@
         </section>
       </main>
     </div>
-    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65080c3b3c3c6d169c975c09" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65080c3b3c3c6d169c975c09"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
     <script src="../js/utilities.js" type="text/javascript"></script>
-  
-
-</body></html>
+  </body>
+</html>

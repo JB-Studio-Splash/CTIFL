@@ -1565,14 +1565,17 @@ input, select {
   background-color: var(--blanc);
   padding: 1.5rem 4.25rem;
 }
+
 .optimisateur_grid-cell.success {
   border: 1px solid var(--vert-principal);
   background-color: rgba(0, 116, 111, .05);
 }
+
 .optimisateur_grid-cell.error {
   border: 1px solid var(--echec);
   background-color: rgba(255, 229, 229, .7);
 }
+
 .optimisateur_grid {
   grid-column-gap: 4px;
   grid-row-gap: 4px;
@@ -1596,6 +1599,14 @@ input, select {
   justify-content: space-between;
   padding: .75rem 1.5rem;
   display: flex;
+}
+
+.optimisateur_grid-cell > .grid-cell_inner {
+  align-items: center;
+}
+
+.trigger-optimisateur {
+  cursor: pointer;
 }
 
 .result-info_icon {
@@ -2109,6 +2120,12 @@ input, select {
 }
 
 /* ------------- SELECT ------------- */
+.select-recette_radio {
+  height: 2rem;
+  margin-bottom: 0rem;
+
+}
+
 .select-recette_radio-button {
   width: 2rem;
   height: 2rem !important;
