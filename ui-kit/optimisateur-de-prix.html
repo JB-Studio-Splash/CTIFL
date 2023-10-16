@@ -1,10 +1,12 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
     <title>Optimisateur de prix</title>
+
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+
     <link href="../css/normalize.css" rel="stylesheet" type="text/css" />
+
     <link href="../css/style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link
@@ -12,20 +14,6 @@
       rel="preconnect"
       crossorigin="anonymous"
     />
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
-      type="text/javascript"
-    ></script>
-    <script type="text/javascript">
-      WebFont.load({
-        google: {
-          families: [
-            "Roboto:100,300,regular,500,700,900",
-            "Noto Sans:100,200,300,regular,500,600,700,800,900",
-          ],
-        },
-      });
-    </script>
   </head>
   <body>
     <div class="page-wrapper">
@@ -51,7 +39,7 @@
                   </div>
                   <div class="optimisateur-calculation_wrapper">
                     <div class="optimisateur_grid">
-                      <div class="optimisateur_grid-cell">
+                      <div class="optimisateur_grid-cell bg_w">
                         <div class="grid-cell_inner">
                           <p class="p_large">
                             Prix de vente €/uvc TTC
@@ -60,13 +48,13 @@
                           <p class="p_large">2,03 €</p>
                         </div>
                       </div>
-                      <div class="optimisateur_grid-cell">
+                      <div class="optimisateur_grid-cell bg_w">
                         <div class="grid-cell_inner">
                           <p class="p_large">Marge brute/uvc</p>
                           <p class="p_large">0,68 €</p>
                         </div>
                       </div>
-                      <div class="optimisateur_grid-cell">
+                      <div class="optimisateur_grid-cell bg_w">
                         <div class="grid-cell_inner">
                           <p class="p_large">Prix de vente €/uvc HT</p>
                           <p class="p_large">1,93 €</p>
@@ -79,19 +67,24 @@
                         </div>
                       </div>
                     </div>
-                    <p class="t_gs">
-                      Le taux de marge appliqué permet de prendre en compte vos
-                      frais de personnel.
-                    </p>
                   </div>
                 </div>
-                <div class="optimisateur_cta">
-                  <a href="#" class="p_link">Faire une autre simulation</a>
-                  <a href="#" class="button bg_gp">
+                <div class="optimisateur_cta b_s">
+                  <img
+                    src="../images/Positif.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon result"
+                  />
+                  <p class="t_gs">
+                    Le taux de marge appliqué permet de prendre en compte
+                    <br />vos frais de personnel.
+                  </p>
+                  <a href="#" class="button bg_gp w-inline-block">
                     <p class="t_w">Modifier le taux de marge</p>
                   </a>
                 </div>
-                <div class="optimisateur_result">
+                <div class="optimisateur_result bg_w">
                   <div class="optimisateur-result_info">
                     <img
                       src="../images/Info.svg"
@@ -100,37 +93,25 @@
                       class="result-info_icon"
                     />
                     <p class="p_large">
-                      Les résultats de la simulation &nbsp;sont élaborés avec un
-                      taux de rendement préconisé pour les catégories 1 et
-                      Catégorie Extra
+                      Les résultats de la simulation sont élaborés avec un taux
+                      de rendement préconisé pour les catégories 1 et Catégorie
+                      Extra
                     </p>
                   </div>
                   <div class="optimisateur-result_wrapper">
                     <div class="optimisateur-result_grid">
-                      <div class="optimisateur_grid-cell">
+                      <div class="optimisateur_grid-cell b_g">
                         <div class="grid-cell_inner">
                           <p class="p_large">Prix de vente €/uvc HT</p>
-                          <div class="optimisateur_result-wrap">
-                            <a class="p_large trigger-optimisateur">1,93€</a>
-                            <input
-                              type="text"
-                              class="tab_input optimisateur-prix hidden"
-                              maxlength="256"
-                            />
-                          </div>
+                          <p class="p_large trigger-optimisateur b_g">1,93 €</p>
                         </div>
                       </div>
-                      <div class="optimisateur_grid-cell">
+                      <div class="optimisateur_grid-cell b_g">
                         <div class="grid-cell_inner">
-                          <a class="p_large">Productivité horaire du produit</a>
-                          <div class="optimisateur_result-wrap">
-                            <a class="p_large trigger-optimisateur">22 UVC/h</a>
-                            <input
-                              type="text"
-                              class="tab_input optimisateur-prix hidden"
-                              maxlength="256"
-                            />
-                          </div>
+                          <p class="p_large">Productivité horaire du produit</p>
+                          <p class="p_large trigger-optimisateur b_g">
+                            22 UVC/h
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -139,6 +120,9 @@
                     >
                   </div>
                 </div>
+                <a href="#" class="button b_gp result w-inline-block">
+                  <p class="t_gp">Nouvelle simulation</p>
+                </a>
               </div>
             </div>
           </div>
@@ -183,19 +167,24 @@
                         </div>
                       </div>
                     </div>
-                    <p class="t_e">
-                      Le taux de marge appliqué permet de prendre en compte vos
-                      frais de personnel.
-                    </p>
                   </div>
                 </div>
-                <div class="optimisateur_cta">
-                  <a href="#" class="p_link">Faire une autre simulation</a>
-                  <a href="#" class="button bg_gp">
+                <div class="optimisateur_cta b_e">
+                  <img
+                    src="../images/Négatif.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon result"
+                  />
+                  <p class="t_e">
+                    Le taux de marge appliqué permet de prendre en compte
+                    <br />vos frais de personnel.
+                  </p>
+                  <a href="#" class="button bg_gp w-inline-block">
                     <p class="t_w">Modifier le taux de marge</p>
                   </a>
                 </div>
-                <div class="optimisateur_result">
+                <div class="optimisateur_result bg_w">
                   <div class="optimisateur-result_info">
                     <img
                       src="../images/Info.svg"
@@ -211,30 +200,18 @@
                   </div>
                   <div class="optimisateur-result_wrapper">
                     <div class="optimisateur-result_grid">
-                      <div class="optimisateur_grid-cell">
+                      <div class="optimisateur_grid-cell b_g">
                         <div class="grid-cell_inner">
                           <p class="p_large">Prix de vente €/uvc HT</p>
-                          <div class="optimisateur_result-wrap">
-                            <a class="p_large trigger-optimisateur">1,93€</a>
-                            <input
-                              type="text"
-                              class="tab_input optimisateur-prix hidden"
-                              maxlength="256"
-                            />
-                          </div>
+                          <p class="p_large trigger-optimisateur b_g">1,93 €</p>
                         </div>
                       </div>
-                      <div class="optimisateur_grid-cell">
+                      <div class="optimisateur_grid-cell b_g">
                         <div class="grid-cell_inner">
-                          <a class="p_large">Productivité horaire du produit</a>
-                          <div class="optimisateur_result-wrap">
-                            <a class="p_large trigger-optimisateur">22 UVC/h</a>
-                            <input
-                              type="text"
-                              class="tab_input optimisateur-prix hidden"
-                              maxlength="256"
-                            />
-                          </div>
+                          <p class="p_large">Productivité horaire du produit</p>
+                          <p class="p_large trigger-optimisateur b_g">
+                            22 UVC/h
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -243,6 +220,9 @@
                     >
                   </div>
                 </div>
+                <a href="#" class="button b_gp result w-inline-block">
+                  <p class="t_gp">Nouvelle simulation</p>
+                </a>
               </div>
             </div>
           </div>
@@ -255,6 +235,10 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
-    <script src="../js/utilities.js" type="text/javascript"></script>
+
+    <script src="js/calendar.js" type="text/javascript"></script>
+    <script src="js/navigation.js" type="text/javascript"></script>
+    <script src="js/table.js" type="text/javascript"></script>
+    <script src="js/utilities.js" type="text/javascript"></script>
   </body>
 </html>

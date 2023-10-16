@@ -4,13 +4,6 @@ $(document).ready(function () {
     });
   });
 
-  // CAHIER COMMANDE -> ETAT BOUTON
-  $(document).ready(function () {
-    $(".button.list").on("click", function () {
-      $(this).toggleClass("selected");
-    });
-  });
-
 
   // DROPDOWN OPEN / CLOSE
   $(document).ready(function(){
@@ -50,3 +43,21 @@ $(document).ready(function() {
     $(this).siblings('.tab_input').removeClass('hidden');
   });
 });
+
+
+// RADIO BUTTON SELECTED
+$(document).ready(function() {
+  $('.select-recette_radio-button').on('change', function() {
+      if ($(this).is(':checked')) {
+          $('.radio-button.selected').removeClass('selected');  
+          $(this).closest('.radio-button').addClass('selected');
+      }
+  });
+});
+
+  // CAHIER COMMANDE -> ETAT BOUTON
+  $(document).ready(function () {
+    $(".button.list").on("click", function () {
+      $(this).toggleClass("selected");
+    });
+  });

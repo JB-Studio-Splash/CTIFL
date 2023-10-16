@@ -11,3 +11,18 @@ $(document).ready(function() {
         $("#phone-menu").toggleClass("open");
     });
 });
+
+$(document).ready(function() {
+    $('.nav-dropdown-trigger').hover(
+        function() { 
+            const $dropdown = $(this).find('.header_dropdown');
+            const hasChildren = $dropdown.find('.header-dropdown_grid').children().length > 0;
+            if (hasChildren) {
+                $dropdown.removeClass('closed');
+            }
+        },
+        function() {
+            $(this).find('.header_dropdown').addClass('closed');
+        }
+    );
+});
