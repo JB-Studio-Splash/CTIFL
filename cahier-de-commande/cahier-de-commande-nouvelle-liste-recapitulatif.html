@@ -1,22 +1,19 @@
-<!DOCTYPE html><html><head>
-    <meta charset="utf-8">
+<html>
+  <head>
+    <meta charset="utf-8" />
     <title>Cahier de commande - Nouvelle liste - récapitulatif</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="../css/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      WebFont.load({
-        google: {
-          families: [
-            "Roboto:100,300,regular,500,700,900",
-            "Noto Sans:100,200,300,regular,500,600,700,800,900",
-          ],
-        },
-      });
-    </script>
+
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css" />
+
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <div class="page-wrapper">
@@ -24,23 +21,35 @@
         <div class="header_inner">
           <div class="header_brand-user">
             <div class="header_brand">
-              <img src="../images/CTIFL-Logo.svg" loading="lazy" alt="" class="header_brand-logo">
+              <img
+                src="../images/CTIFL-Logo.svg"
+                loading="lazy"
+                alt=""
+                class="header_brand-logo"
+              />
               <div class="header_brand-divider"></div>
               <h1 class="header_brand-title">Atelier Fraîche Découpe</h1>
             </div>
             <div class="header_user">
-              <a href="#" class="header_user-account"><img src="../images/ListBullets.svg" loading="lazy" alt="">
+              <a href="#" class="header_user-account"
+                ><img src="../images/ListBullets.svg" loading="lazy" alt="" />
                 <p class="t_gp">Mes référentiels</p>
               </a>
               <div class="header_user-divider"></div>
-              <a href="#" class="header_user-account"><img src="../images/ArrowCounterClockwise.svg" loading="lazy" alt="">
+              <a href="#" class="header_user-account"
+                ><img
+                  src="../images/ArrowCounterClockwise.svg"
+                  loading="lazy"
+                  alt=""
+                />
                 <p class="t_gp">Mes historiques</p>
               </a>
               <div class="header_user-divider"></div>
-              <a href="#" class="header_user-account"><img src="../images/user-light-1.svg" loading="lazy" alt="">
+              <a href="#" class="header_user-account"
+                ><img src="../images/user-light-1.svg" loading="lazy" alt="" />
                 <p class="t_gp">Caroline Van Themsche</p>
               </a>
-              <a href="#" class="header_burger">
+              <a id="tablet-burger" href="#" class="header_burger">
                 <div class="header_burger-line t"></div>
                 <div class="header_burger-line m"></div>
                 <div class="header_burger-line b"></div>
@@ -50,31 +59,153 @@
           <div class="header_divider"></div>
           <div class="header-user-connected">
             <div class="header_user connected">
-              <a href="#" class="header_user-account touch-screen"><img src="../images/ListBullets.svg" loading="lazy" alt="">
+              <a href="#" class="header_user-account touch-screen"
+                ><img src="../images/ListBullets.svg" loading="lazy" alt="" />
                 <p class="t_gp">Mes référentiels</p>
               </a>
               <div class="header_user-divider connected"></div>
-              <a href="#" class="header_user-account touch-screen"><img src="../images/ArrowCounterClockwise.svg" loading="lazy" alt="">
+              <a href="#" class="header_user-account touch-screen"
+                ><img
+                  src="../images/ArrowCounterClockwise.svg"
+                  loading="lazy"
+                  alt=""
+                />
                 <p class="t_gp">Mes historiques</p>
               </a>
               <div class="header_user-divider connected"></div>
-              <a href="#" class="header_user-account touch-screen"><img src="../images/user-light-1.svg" loading="lazy" alt="">
+              <a href="#" class="header_user-account touch-screen"
+                ><img src="../images/user-light-1.svg" loading="lazy" alt="" />
                 <p class="t_gp">Caroline Van Themsche</p>
               </a>
             </div>
           </div>
           <div class="header_nav">
-            <a href="../ui-kit/header-footer.html" class="nav_link">
-              <div>Configurez vos référentiels</div>
-            </a>
+            <div class="nav_link nav-dropdown-trigger">
+              <a href="#" class="">Configurez vos référentiels</a>
+              <div class="header_dropdown closed">
+                <div class="header-dropdown_grid">
+                  <div class="header-dropdown_grid-cell">
+                    <p class="p_large t_gp is-bold">Titre catégorie</p>
+                    <div class="header-dropdown_links">
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="header-dropdown_grid-cell">
+                    <p class="p_large t_gp is-bold">Titre catégorie</p>
+                    <div class="header-dropdown_links">
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="header-dropdown_grid-cell">
+                    <p class="p_large t_gp is-bold">Titre catégorie</p>
+                    <div class="header-dropdown_links">
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="nav_divider"></div>
-            <a href="#" class="nav_link">
-              <div>Suivez vos fabrications &amp; préparez vos commandes</div>
-            </a>
+            <div class="nav_link nav-dropdown-trigger">
+              <a href="#" class=""
+                >Suivez vos fabrications &amp; préparez vos commandes</a
+              >
+              <div class="header_dropdown closed">
+                <div class="header-dropdown_grid">
+                  <div class="header-dropdown_grid-cell">
+                    <p class="p_large t_gp is-bold">Titre catégorie</p>
+                    <div class="header-dropdown_links">
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="header-dropdown_grid-cell">
+                    <p class="p_large t_gp is-bold">Titre catégorie</p>
+                    <div class="header-dropdown_links">
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="header-dropdown_grid-cell">
+                    <p class="p_large t_gp is-bold">Titre catégorie</p>
+                    <div class="header-dropdown_links">
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                      <a href="index.html" class="nav_link">
+                        <div>Lien vers page</div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="nav_divider"></div>
-            <a href="#" class="nav_link">
-              <div>Optimisez vos prix</div>
-            </a>
+            <div class="nav_link nav-dropdown-trigger">
+              <a href="#" class="">Optimisez vos prix</a>
+              <div class="header_dropdown closed">
+                <div class="header-dropdown_grid"></div>
+              </div>
+            </div>
             <div class="nav_divider"></div>
             <a href="#" class="nav_link">
               <div>Guide d’utilisation</div>
@@ -84,36 +215,63 @@
               <div>Contactez-nous</div>
             </a>
           </div>
-          <div class="header_burger-menu">
+          <div id="tablet-menu" class="header_burger-menu">
             <div class="burger-menu_content">
-              <a href="../ui-kit/header-footer.html" class="nav_link">
-                <div>Configurez vos référentiels</div>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="#" class="nav_link">
-                <div>Suivez vos fabrications &amp; préparez vos commandes</div>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="#" class="nav_link">
-                <div>Optimisez vos prix</div>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="#" class="nav_link">
-                <div>Guide d’utilisation</div>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="#" class="nav_link">
-                <div>Contactez-nous</div>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="#" class="burger_ctifl-link">
-                <p class="t_dg">Le CTIFL</p>
-              </a>
-              <div class="nav_divider"></div>
-              <div class="burger-user_social">
-                <a href="#" class=""><img src="../images/linkedin-1-1.svg" loading="lazy" alt=""></a>
-                <a href="#" class=""><img src="../images/twitter-sign-1.svg" loading="lazy" alt=""></a>
-                <a href="#" class=""><img src="../images/youtube-1.svg" loading="lazy" alt=""></a>
+              <div class="burger-menu_item">
+                <a href="ui-kit/header-footer.html" class="burger_nav_link"
+                  ><img
+                    src="../images/WarningCircle.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon"
+                  />
+                  <div>Configurez vos référentiels</div>
+                </a>
+              </div>
+              <div class="burger-menu_item">
+                <a href="#" class="burger_nav_link"
+                  ><img
+                    src="../images/WarningCircle.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon"
+                  />
+                  <div>
+                    Suivez vos fabrications &amp; préparez vos commandes
+                  </div>
+                </a>
+              </div>
+              <div class="burger-menu_item">
+                <a href="#" class="burger_nav_link"
+                  ><img
+                    src="../images/WarningCircle.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon"
+                  />
+                  <div>Optimisez vos prix</div>
+                </a>
+              </div>
+              <div class="burger-menu_item">
+                <a href="#" class="burger_nav_link"
+                  ><img
+                    src="../images/WarningCircle.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon"
+                  />
+                  <div>Guide d’utilisation</div>
+                </a>
+              </div>
+              <div class="burger-menu_item">
+                <a href="#" class="burger_nav_link">
+                  <div>Le CTIFL</div>
+                </a>
+              </div>
+              <div class="burger-menu_item">
+                <a href="#" class="burger_nav_link">
+                  <div>Contactez-nous</div>
+                </a>
               </div>
             </div>
           </div>
@@ -121,22 +279,34 @@
         <div class="header_inner mobile">
           <div class="header_brand-user">
             <div class="header_brand">
-              <img src="../images/CTIFL-Logo.svg" loading="lazy" alt="" class="header_brand-logo">
+              <img
+                src="../images/CTIFL-Logo.svg"
+                loading="lazy"
+                alt=""
+                class="header_brand-logo"
+              />
               <h1 class="header_brand-title">Atelier Fraîche Découpe</h1>
             </div>
             <div class="header_user">
-              <a href="#" class="header_user-account"><img src="../images/ListBullets.svg" loading="lazy" alt="">
+              <a href="#" class="header_user-account"
+                ><img src="../images/ListBullets.svg" loading="lazy" alt="" />
                 <p class="t_gp">Mes référentiels</p>
               </a>
               <div class="header_user-divider"></div>
-              <a href="#" class="header_user-account"><img src="../images/ArrowCounterClockwise.svg" loading="lazy" alt="">
+              <a href="#" class="header_user-account"
+                ><img
+                  src="../images/ArrowCounterClockwise.svg"
+                  loading="lazy"
+                  alt=""
+                />
                 <p class="t_gp">Mes historiques</p>
               </a>
               <div class="header_user-divider"></div>
-              <a href="#" class="header_user-account"><img src="../images/user-light-1.svg" loading="lazy" alt="">
+              <a href="#" class="header_user-account"
+                ><img src="../images/user-light-1.svg" loading="lazy" alt="" />
                 <p class="t_gp">Joseph Bongrand</p>
               </a>
-              <a href="#" class="header_burger">
+              <a id="phone-burger" href="#" class="header_burger">
                 <div class="header_burger-line t"></div>
                 <div class="header_burger-line m"></div>
                 <div class="header_burger-line b"></div>
@@ -145,7 +315,7 @@
           </div>
           <div class="header_divider"></div>
           <div class="header_nav">
-            <a href="../ui-kit/header-footer.html" class="nav_link">
+            <a href="ui-kit/header-footer.html" class="nav_link">
               <div>Configurez vos référentiels</div>
             </a>
             <div class="nav_divider"></div>
@@ -165,48 +335,92 @@
               <div>Contactez-nous</div>
             </a>
           </div>
-          <div class="header_burger-menu">
+          <div id="phone-menu" class="header_burger-menu">
             <div class="burger-menu_content">
-              <a href="#" class="header_user-account touch-screen"><img src="../images/user-light-1.svg" loading="lazy" alt="">
-                <p class="t_gp">Joseph Bongrand</p>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="#" class="header_user-account touch-screen"><img src="../images/ListBullets.svg" loading="lazy" alt="">
-                <p class="t_gp">Mes référentiels</p>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="#" class="header_user-account touch-screen"><img src="../images/ArrowCounterClockwise.svg" loading="lazy" alt="">
-                <p class="t_gp">Mes historiques</p>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="../ui-kit/header-footer.html" class="nav_link">
-                <div>Configurez vos référentiels</div>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="#" class="nav_link">
-                <div>Suivez vos fabrications &amp; préparez vos commandes</div>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="#" class="nav_link">
-                <div>Optimisez vos prix</div>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="#" class="nav_link">
-                <div>Guide d’utilisation</div>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="#" class="nav_link">
-                <div>Contactez-nous</div>
-              </a>
-              <div class="nav_divider"></div>
-              <a href="#" class="burger_ctifl-link">
-                <p class="t_dg">Le CTIFL</p>
-              </a>
-              <div class="nav_divider"></div>
-              <div class="burger-user_social">
-                <a href="#" class=""><img src="../images/linkedin-1-1.svg" loading="lazy" alt=""></a>
-                <a href="#" class=""><img src="../images/twitter-sign-1.svg" loading="lazy" alt=""></a>
-                <a href="#" class=""><img src="../images/youtube-1.svg" loading="lazy" alt=""></a>
+              <div class="burger-menu_item">
+                <a href="ui-kit/header-footer.html" class="burger_nav_link"
+                  ><img
+                    src="../images/WarningCircle.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon"
+                  />
+                  <div>Configurez vos référentiels</div>
+                </a>
+              </div>
+              <div class="burger-menu_item">
+                <a href="#" class="burger_nav_link"
+                  ><img
+                    src="../images/WarningCircle.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon"
+                  />
+                  <div>
+                    Suivez vos fabrications &amp; préparez vos commandes
+                  </div>
+                </a>
+              </div>
+              <div class="burger-menu_item">
+                <a href="#" class="burger_nav_link"
+                  ><img
+                    src="../images/WarningCircle.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon"
+                  />
+                  <div>Optimisez vos prix</div>
+                </a>
+              </div>
+              <div class="burger-menu_item">
+                <a href="#" class="burger_nav_link"
+                  ><img
+                    src="../images/WarningCircle.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon"
+                  />
+                  <div>Guide d’utilisation</div>
+                </a>
+              </div>
+              <div class="burger-menu_item">
+                <a href="#" class="burger_nav_link">
+                  <div>Le CTIFL</div>
+                </a>
+              </div>
+              <div class="burger-menu_item">
+                <a href="#" class="burger_nav_link">
+                  <div>Contactez-nous</div>
+                </a>
+              </div>
+              <div class="burger-menu_item bg_gp">
+                <a href="#" class="burger-menu-item_cell"
+                  ><img
+                    src="../images/ListBullets_2.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon"
+                  />
+                  <div class="t_w">Mes référentiels</div>
+                </a>
+                <a href="#" class="burger-menu-item_cell"
+                  ><img
+                    src="../images/ArrowCounterClockwise_1.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon"
+                  />
+                  <div class="t_w">Mes historiques</div>
+                </a>
+                <a href="#" class="burger-menu-item_cell"
+                  ><img
+                    src="../images/user-light_1.svg"
+                    loading="lazy"
+                    alt=""
+                    class="icon"
+                  />
+                  <div class="t_w">Mon compte</div>
+                </a>
               </div>
             </div>
           </div>
@@ -285,8 +499,26 @@
                     <div class="form-block">
                       <form method="get" class="form">
                         <div class="cahier-commande_checkbox-wrapper">
-                          <label class="checkbox_field"><input type="checkbox" class="checkbox_box"><span class="label" for="">Sans stock de produits transformés</span></label><label class="checkbox_field"><input type="checkbox" class="checkbox_box"><span class="label" for="">Avec stock de produits transformés</span></label>
+                          <label class="w-checkbox checkbox_field"
+                            ><input type="checkbox" class="checkbox_box" /><span
+                              class="label"
+                              for=""
+                              >Sans stock de produits transformés</span
+                            ></label
+                          ><label class="w-checkbox checkbox_field"
+                            ><input type="checkbox" class="checkbox_box" /><span
+                              class="label"
+                              for=""
+                              >Avec stock de produits transformés</span
+                            ></label
+                          >
                         </div>
+                        <input
+                          type="submit"
+                          value="Submit"
+                          data-wait="Please wait..."
+                          class="button hidden w-button"
+                        />
                       </form>
                     </div>
                   </div>
@@ -298,11 +530,19 @@
                             <div class="stock_header-row">
                               <a href="#" class="header_cell">
                                 <p>produit / recette</p>
-                                <img loading="lazy" src="../images/Vector-2.svg" alt="">
+                                <img
+                                  loading="lazy"
+                                  src="../images/Vector-2.svg"
+                                  alt=""
+                                />
                               </a>
                               <a href="#" class="header_cell">
                                 <p>objectif de vente</p>
-                                <img loading="lazy" src="../images/Vector-2.svg" alt="">
+                                <img
+                                  loading="lazy"
+                                  src="../images/Vector-2.svg"
+                                  alt=""
+                                />
                               </a>
                               <div class="header_cell"></div>
                             </div>
@@ -314,10 +554,21 @@
                                   <p class="p_large">Mélange sushis</p>
                                 </div>
                                 <div class="table_cell">
-                                  <input type="text" class="tab_input commande" maxlength="256" placeholder="45">
+                                  <input
+                                    type="text"
+                                    class="tab_input commande"
+                                    maxlength="256"
+                                    placeholder="45"
+                                  />
                                 </div>
                                 <div class="table_cell">
-                                  <a href="#" class="edit-line-trigger"><img src="../images/trash.svg" loading="lazy" alt="" class="no-click"></a>
+                                  <a href="#" class="edit-line-trigger"
+                                    ><img
+                                      src="../images/trash.svg"
+                                      loading="lazy"
+                                      alt=""
+                                      class="no-click"
+                                  /></a>
                                 </div>
                               </div>
                             </div>
@@ -327,10 +578,21 @@
                                   <p class="p_large">Salade Mix fraîcheur</p>
                                 </div>
                                 <div class="table_cell">
-                                  <input type="text" class="tab_input commande" maxlength="256" placeholder="45">
+                                  <input
+                                    type="text"
+                                    class="tab_input commande"
+                                    maxlength="256"
+                                    placeholder="45"
+                                  />
                                 </div>
                                 <div class="table_cell">
-                                  <a href="#" class="edit-line-trigger"><img src="../images/trash.svg" loading="lazy" alt="" class="no-click"></a>
+                                  <a href="#" class="edit-line-trigger"
+                                    ><img
+                                      src="../images/trash.svg"
+                                      loading="lazy"
+                                      alt=""
+                                      class="no-click"
+                                  /></a>
                                 </div>
                               </div>
                             </div>
@@ -340,10 +602,21 @@
                                   <p class="p_large">Salade spécial Hiver</p>
                                 </div>
                                 <div class="table_cell">
-                                  <input type="text" class="tab_input commande" maxlength="256" placeholder="45">
+                                  <input
+                                    type="text"
+                                    class="tab_input commande"
+                                    maxlength="256"
+                                    placeholder="45"
+                                  />
                                 </div>
                                 <div class="table_cell">
-                                  <a href="#" class="edit-line-trigger"><img src="../images/trash.svg" loading="lazy" alt="" class="no-click"></a>
+                                  <a href="#" class="edit-line-trigger"
+                                    ><img
+                                      src="../images/trash.svg"
+                                      loading="lazy"
+                                      alt=""
+                                      class="no-click"
+                                  /></a>
                                 </div>
                               </div>
                             </div>
@@ -353,16 +626,33 @@
                                   <p class="p_large">Carotte râpée</p>
                                 </div>
                                 <div class="table_cell">
-                                  <input type="text" class="tab_input commande" maxlength="256" placeholder="45">
+                                  <input
+                                    type="text"
+                                    class="tab_input commande"
+                                    maxlength="256"
+                                    placeholder="45"
+                                  />
                                 </div>
                                 <div class="table_cell">
-                                  <a href="#" class="edit-line-trigger"><img src="../images/trash.svg" loading="lazy" alt="" class="no-click"></a>
+                                  <a href="#" class="edit-line-trigger"
+                                    ><img
+                                      src="../images/trash.svg"
+                                      loading="lazy"
+                                      alt=""
+                                      class="no-click"
+                                  /></a>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
+                      <input
+                        type="submit"
+                        value="Submit"
+                        data-wait="Please wait..."
+                        class="button hidden w-button"
+                      />
                     </form>
                   </div>
                   <div class="form-block">
@@ -373,19 +663,39 @@
                             <div class="stock-prod_header-row">
                               <a href="#" class="header_cell">
                                 <p>produit / recette</p>
-                                <img loading="lazy" src="../images/Vector-2.svg" alt="">
+                                <img
+                                  loading="lazy"
+                                  src="../images/Vector-2.svg"
+                                  alt=""
+                                />
                               </a>
                               <a href="#" class="header_cell">
                                 <p>objectif de vente</p>
-                                <img loading="lazy" src="../images/Vector-2.svg" alt="">
+                                <img
+                                  loading="lazy"
+                                  src="../images/Vector-2.svg"
+                                  alt=""
+                                />
                               </a>
                               <a href="#" class="header_cell">
                                 <p>stocks</p>
-                                <img loading="lazy" src="../images/Vector-2.svg" alt="">
+                                <img
+                                  loading="lazy"
+                                  src="../images/Vector-2.svg"
+                                  alt=""
+                                />
                               </a>
-                              <a id="w-node-_07c5465d-879b-fe46-37a8-3149c558fa1f-c558fa0d" href="#" class="header_cell quantity">
+                              <a
+                                id="w-node-_07c5465d-879b-fe46-37a8-3149c558fa1f-c558fa0d"
+                                href="#"
+                                class="header_cell quantity"
+                              >
                                 <p>quantité</p>
-                                <img loading="lazy" src="../images/Vector-2.svg" alt="">
+                                <img
+                                  loading="lazy"
+                                  src="../images/Vector-2.svg"
+                                  alt=""
+                                />
                               </a>
                               <div class="header_cell"></div>
                             </div>
@@ -397,16 +707,32 @@
                                   <p class="p_large">Mélange sushis</p>
                                 </div>
                                 <div class="table_cell">
-                                  <input type="text" class="tab_input commande" maxlength="256" placeholder="45">
+                                  <input
+                                    type="text"
+                                    class="tab_input commande"
+                                    maxlength="256"
+                                    placeholder="45"
+                                  />
                                 </div>
                                 <div class="table_cell">
-                                  <input type="text" class="tab_input commande" maxlength="256" placeholder="45">
+                                  <input
+                                    type="text"
+                                    class="tab_input commande"
+                                    maxlength="256"
+                                    placeholder="45"
+                                  />
                                 </div>
                                 <div class="table_cell quantity">
                                   <p class="p_large">20</p>
                                 </div>
                                 <div class="table_cell">
-                                  <a href="#" class="edit-line-trigger"><img src="../images/trash.svg" loading="lazy" alt="" class="no-click"></a>
+                                  <a href="#" class="edit-line-trigger"
+                                    ><img
+                                      src="../images/trash.svg"
+                                      loading="lazy"
+                                      alt=""
+                                      class="no-click"
+                                  /></a>
                                 </div>
                               </div>
                             </div>
@@ -416,16 +742,32 @@
                                   <p class="p_large">Mélange sushis</p>
                                 </div>
                                 <div class="table_cell">
-                                  <input type="text" class="tab_input commande" maxlength="256" placeholder="45">
+                                  <input
+                                    type="text"
+                                    class="tab_input commande"
+                                    maxlength="256"
+                                    placeholder="45"
+                                  />
                                 </div>
                                 <div class="table_cell">
-                                  <input type="text" class="tab_input commande" maxlength="256" placeholder="45">
+                                  <input
+                                    type="text"
+                                    class="tab_input commande"
+                                    maxlength="256"
+                                    placeholder="45"
+                                  />
                                 </div>
                                 <div class="table_cell quantity">
                                   <p class="p_large">20</p>
                                 </div>
                                 <div class="table_cell">
-                                  <a href="#" class="edit-line-trigger"><img src="../images/trash.svg" loading="lazy" alt="" class="no-click"></a>
+                                  <a href="#" class="edit-line-trigger"
+                                    ><img
+                                      src="../images/trash.svg"
+                                      loading="lazy"
+                                      alt=""
+                                      class="no-click"
+                                  /></a>
                                 </div>
                               </div>
                             </div>
@@ -435,16 +777,32 @@
                                   <p class="p_large">Mélange sushis</p>
                                 </div>
                                 <div class="table_cell">
-                                  <input type="text" class="tab_input commande" maxlength="256" placeholder="45">
+                                  <input
+                                    type="text"
+                                    class="tab_input commande"
+                                    maxlength="256"
+                                    placeholder="45"
+                                  />
                                 </div>
                                 <div class="table_cell">
-                                  <input type="text" class="tab_input commande" maxlength="256" placeholder="45">
+                                  <input
+                                    type="text"
+                                    class="tab_input commande"
+                                    maxlength="256"
+                                    placeholder="45"
+                                  />
                                 </div>
                                 <div class="table_cell quantity">
                                   <p class="p_large">20</p>
                                 </div>
                                 <div class="table_cell">
-                                  <a href="#" class="edit-line-trigger"><img src="../images/trash.svg" loading="lazy" alt="" class="no-click"></a>
+                                  <a href="#" class="edit-line-trigger"
+                                    ><img
+                                      src="../images/trash.svg"
+                                      loading="lazy"
+                                      alt=""
+                                      class="no-click"
+                                  /></a>
                                 </div>
                               </div>
                             </div>
@@ -454,22 +812,44 @@
                                   <p class="p_large">Mélange sushis</p>
                                 </div>
                                 <div class="table_cell">
-                                  <input type="text" class="tab_input commande" maxlength="256" placeholder="45">
+                                  <input
+                                    type="text"
+                                    class="tab_input commande"
+                                    maxlength="256"
+                                    placeholder="45"
+                                  />
                                 </div>
                                 <div class="table_cell">
-                                  <input type="text" class="tab_input commande" maxlength="256" placeholder="45">
+                                  <input
+                                    type="text"
+                                    class="tab_input commande"
+                                    maxlength="256"
+                                    placeholder="45"
+                                  />
                                 </div>
                                 <div class="table_cell quantity">
                                   <p class="p_large">20</p>
                                 </div>
                                 <div class="table_cell">
-                                  <a href="#" class="edit-line-trigger"><img src="../images/trash.svg" loading="lazy" alt="" class="no-click"></a>
+                                  <a href="#" class="edit-line-trigger"
+                                    ><img
+                                      src="../images/trash.svg"
+                                      loading="lazy"
+                                      alt=""
+                                      class="no-click"
+                                  /></a>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
+                      <input
+                        type="submit"
+                        value="Submit"
+                        data-wait="Please wait..."
+                        class="button hidden w-button"
+                      />
                     </form>
                   </div>
                 </div>
@@ -488,12 +868,27 @@
       </main>
       <div class="footer page-padding normal">
         <div class="footer_content">
-          <div class="footer_col logos">
+          <div id="membres-reseau" class="footer_col logos">
             <div class="footer_links-header">
               <div class="t_w is-bold">Membres du réseau</div>
             </div>
             <div class="footer_links-list logos">
-              <img src="../images/logo_ctifl_blanc-1.svg" loading="lazy" alt="" class="logo ctifl"><img src="../images/acta_blanc-1.svg" loading="lazy" alt="" class="logo"><img src="../images/Logo-Robagri_FINAL-1.svg" loading="lazy" alt="" class="logo">
+              <img
+                src="../images/logo_ctifl_blanc-1.svg"
+                loading="lazy"
+                alt=""
+                class="logo ctifl"
+              /><img
+                src="../images/acta_blanc-1.svg"
+                loading="lazy"
+                alt=""
+                class="logo"
+              /><img
+                src="../images/Logo-Robagri_FINAL-1.svg"
+                loading="lazy"
+                alt=""
+                class="logo"
+              />
             </div>
           </div>
           <div class="footer_col links">
@@ -563,9 +958,15 @@
               <div class="t_w is-bold">Suivez-nous</div>
             </div>
             <div class="footer_social">
-              <a href="#" class=""><img src="../images/linkedin-1.svg" loading="lazy" alt=""></a>
-              <a href="#" class=""><img src="../images/twitter-sign.svg" loading="lazy" alt=""></a>
-              <a href="#" class=""><img src="../images/youtube-3.svg" loading="lazy" alt=""></a>
+              <a href="#" class=""
+                ><img src="../images/linkedin-1.svg" loading="lazy" alt=""
+              /></a>
+              <a href="#" class=""
+                ><img src="../images/twitter-sign.svg" loading="lazy" alt=""
+              /></a>
+              <a href="#" class=""
+                ><img src="../images/youtube-3.svg" loading="lazy" alt=""
+              /></a>
             </div>
           </div>
         </div>
@@ -591,8 +992,15 @@
         </div>
       </div>
     </div>
-    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65080c3b3c3c6d169c975c09" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="../js/navigation.js" type="text/javascript"></script>
-  
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65080c3b3c3c6d169c975c09"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
 
-</body></html>
+    <script src="../js/navigation.js" type="text/javascript"></script>
+    <script src="../js/table.js" type="text/javascript"></script>
+    <script src="../js/utilities.js" type="text/javascript"></script>
+  </body>
+</html>

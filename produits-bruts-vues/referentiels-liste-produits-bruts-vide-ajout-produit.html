@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Référentiels - Liste etiquettes - liste</title>
+    <title>Référentiels - Liste produits bruts - vide + ajout produit</title>
 
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
@@ -429,17 +429,13 @@
       <main class="page-main">
         <div class="section">
           <div class="container">
-            <div class="page-padding normal">
+            <div class="page-padding normal bottom-0">
               <div class="referentiel-nav">
-                <h2 class="h2">Votre liste d'étiquettes</h2>
+                <h2 class="h2">Votre liste de produits bruts</h2>
                 <div class="referentiel-nav_meta">
-                  <p class="t_gp">0 étiquettes</p>
+                  <p class="t_gp">0 produit brut</p>
                   <div class="referentiel-nav_divider"></div>
                   <p>Modifié le 12 septembre 2023</p>
-                  <div class="referentiel-nav_divider"></div>
-                  <a href="#" class="button bg_gp">
-                    <p class="t_w">Ajouter une étiquette</p>
-                  </a>
                 </div>
               </div>
             </div>
@@ -448,360 +444,214 @@
         <div class="section">
           <div class="container">
             <div class="page-padding normal last-section">
-              <div class="table-etiquette">
-                <div class="table">
-                  <div class="table-head">
-                    <div class="etiquette_header-row">
-                      <a href="#" class="header_cell">
-                        <p>coût unitaire (en €/ht)</p>
-                        <img
-                          src="../images/Vector-2.svg"
-                          loading="lazy"
-                          alt=""
-                        />
-                      </a>
-                      <a href="#" class="header_cell">
-                        <p>coût unitaire (en €/ht)</p>
-                        <img
-                          src="../images/Vector-2.svg"
-                          loading="lazy"
-                          alt=""
-                        />
-                      </a>
-                      <div class="header_cell"></div>
+              <div class="prods-brut_interface">
+                <div class="prods-brut_wrapper">
+                  <p>
+                    Sélectionnez vos produits présents dans la liste ci-dessous
+                    ou ajoutez un produit personnalisé :
+                  </p>
+                  <div class="prods-brut_cards">
+                    <div class="prods-brut_select-card">
+                      <div class="prods-brut_title-form">
+                        <div class="prods-brut_title-block">
+                          <img
+                            src="../images/image-3.svg"
+                            loading="lazy"
+                            alt=""
+                            class="icon"
+                          />
+                          <h2 class="h2">Fruits</h2>
+                        </div>
+                        <div class="form-block prods-brut">
+                          <form method="get" class="form checkbox_list">
+                            <input
+                              type="submit"
+                              value="Submit"
+                              data-wait="Please wait..."
+                              class="button hidden w-button"
+                            /><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for=""
+                                >Quartiers de pomme</span
+                              ></label
+                            ><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for=""
+                                >Ananas en cube</span
+                              ></label
+                            ><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for="">Fraise</span></label
+                            ><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for="">Kiwi</span></label
+                            ><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for=""
+                                >Éclat de Noix de coco</span
+                              ></label
+                            ><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for="">Mangue</span></label
+                            >
+                          </form>
+                        </div>
+                      </div>
                     </div>
+                    <div class="prods-brut_select-card">
+                      <div class="prods-brut_title-form">
+                        <div class="prods-brut_title-block">
+                          <img
+                            src="../images/image-2.svg"
+                            loading="lazy"
+                            alt=""
+                            class="icon"
+                          />
+                          <h2 class="h2">Légumes</h2>
+                        </div>
+                        <div class="form-block prods-brut">
+                          <form method="get" class="form checkbox_list">
+                            <input
+                              type="submit"
+                              value="Submit"
+                              data-wait="Please wait..."
+                              class="button hidden w-button"
+                            /><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for=""
+                                >Pomme de terre en cube</span
+                              ></label
+                            ><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for="">Brocoli</span></label
+                            ><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for=""
+                                >Chou rouge</span
+                              ></label
+                            ><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for="">Carotte</span></label
+                            >
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="prods-brut_select-card">
+                      <div class="prods-brut_title-form">
+                        <div class="prods-brut_title-block">
+                          <img
+                            src="../images/ListBullets_1.svg"
+                            loading="lazy"
+                            alt=""
+                            class="icon"
+                          />
+                          <h2 class="h2">Recettes</h2>
+                        </div>
+                        <div class="form-block prods-brut">
+                          <form method="get" class="form checkbox_list">
+                            <input
+                              type="submit"
+                              value="Submit"
+                              data-wait="Please wait..."
+                              class="button hidden w-button"
+                            /><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for=""
+                                >Mélange pour sushis</span
+                              ></label
+                            ><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for=""
+                                >Salade Mix Frâicheur</span
+                              ></label
+                            ><label class="w-checkbox checkbox_field"
+                              ><input
+                                type="checkbox"
+                                class="checkbox_box"
+                              /><span class="label" for=""
+                                >Mélange potage</span
+                              ></label
+                            >
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="prods-brut_cta-group">
+                    <a href="#" class="button prods-brut"
+                      ><img
+                        src="../images/PlusCircle.svg"
+                        loading="lazy"
+                        alt=""
+                        class="icon"
+                      />
+                      <p>Ajouter un produit personnalisé</p>
+                    </a>
+                    <a href="#" class="button bg_gp t_w prods-brut_submit">
+                      <p>Valider</p>
+                    </a>
                   </div>
-                  <div class="table-body">
-                    <div class="etiquette_table-row-content table_row">
-                      <div class="etiquette_table-row">
-                        <div class="table_cell">
-                          <p class="p_large">Petite étiquette 0833TY</p>
-                        </div>
-                        <div class="table_cell">
-                          <p class="p_large">0.230</p>
-                        </div>
-                        <div class="table_cell">
-                          <a href="#" class="edit-line-trigger"
-                            ><img
-                              src="../images/edit-line.svg"
-                              loading="lazy"
-                              alt=""
-                              class="no-click"
-                          /></a>
-                        </div>
-                      </div>
-                      <div class="table_modal">
-                        <div class="add-etiquette edit">
-                          <div class="form-block">
-                            <form method="get" class="add-etiquette_form">
-                              <div class="add-etiquette_field-group">
-                                <div class="add-etiquette_row">
-                                  <div class="input-group">
-                                    <p>Libellé</p>
-                                    <input
-                                      type="text"
-                                      class="tab_input"
-                                      maxlength="256"
-                                      placeholder="Libellé de l'étiquette"
-                                    />
-                                  </div>
-                                  <div class="input-group">
-                                    <p>
-                                      Coût unitaire
-                                      <span class="t_g">(en €/HT)</span>
-                                    </p>
-                                    <input
-                                      type="text"
-                                      class="tab_input"
-                                      maxlength="256"
-                                      placeholder="0"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="cta-group">
-                                <a href="#" class="p_link">Annuler</a
-                                ><input
-                                  type="submit"
-                                  value="Supprimer"
-                                  data-wait="Patientez..."
-                                  class="button bg_e t_w w-button"
-                                /><input
-                                  type="submit"
-                                  value="Valider"
-                                  data-wait="Patientez..."
-                                  class="button bg_gp t_w w-button"
-                                />
-                              </div>
-                            </form>
+                </div>
+                <div class="add-prod-brut">
+                  <div class="form-block">
+                    <form method="get" class="add-prod-brut_form">
+                      <div class="add-prod-brut_field-group">
+                        <div class="add-prod-brut_row">
+                          <div class="input-group">
+                            <p>Nom du produit</p>
+                            <input
+                              type="text"
+                              class="tab_input"
+                              maxlength="256"
+                              placeholder="Nom du produit"
+                            />
+                          </div>
+                          <div class="input-group">
+                            <p>Famille</p>
+                            <input
+                              type="text"
+                              class="tab_input"
+                              maxlength="256"
+                              placeholder="Famille"
+                            />
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="etiquette_table-row-content table_row">
-                      <div class="etiquette_table-row">
-                        <div class="table_cell">
-                          <p class="p_large">Petite étiquette 0833TY</p>
-                        </div>
-                        <div class="table_cell">
-                          <p class="p_large">0.230</p>
-                        </div>
-                        <div class="table_cell">
-                          <a href="#" class="edit-line-trigger"
-                            ><img
-                              src="../images/edit-line.svg"
-                              loading="lazy"
-                              alt=""
-                              class="no-click"
-                          /></a>
-                        </div>
+                      <div class="cta-group">
+                        <a href="#" class="p_link">Annuler</a
+                        ><input
+                          type="submit"
+                          value="Valider"
+                          data-wait="Patientez..."
+                          class="button bg_gp t_w w-button"
+                        />
                       </div>
-                      <div class="table_modal">
-                        <div class="add-etiquette edit">
-                          <div class="form-block">
-                            <form method="get" class="add-etiquette_form">
-                              <div class="add-etiquette_field-group">
-                                <div class="add-etiquette_row">
-                                  <div class="input-group">
-                                    <p>Libellé</p>
-                                    <input
-                                      type="text"
-                                      class="tab_input"
-                                      maxlength="256"
-                                      placeholder="Libellé de l'étiquette"
-                                    />
-                                  </div>
-                                  <div class="input-group">
-                                    <p>
-                                      Coût unitaire
-                                      <span class="t_g">(en €/HT)</span>
-                                    </p>
-                                    <input
-                                      type="text"
-                                      class="tab_input"
-                                      maxlength="256"
-                                      placeholder="0"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="cta-group">
-                                <a href="#" class="p_link">Annuler</a
-                                ><input
-                                  type="submit"
-                                  value="Supprimer"
-                                  data-wait="Patientez..."
-                                  class="button bg_e t_w w-button"
-                                /><input
-                                  type="submit"
-                                  value="Valider"
-                                  data-wait="Patientez..."
-                                  class="button bg_gp t_w w-button"
-                                />
-                              </div>
-                            </form>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="etiquette_table-row-content table_row">
-                      <div class="etiquette_table-row">
-                        <div class="table_cell">
-                          <p class="p_large">Petite étiquette 0833TY</p>
-                        </div>
-                        <div class="table_cell">
-                          <p class="p_large">0.230</p>
-                        </div>
-                        <div class="table_cell">
-                          <a href="#" class="edit-line-trigger"
-                            ><img
-                              src="../images/edit-line.svg"
-                              loading="lazy"
-                              alt=""
-                              class="no-click"
-                          /></a>
-                        </div>
-                      </div>
-                      <div class="table_modal">
-                        <div class="add-etiquette edit">
-                          <div class="form-block">
-                            <form method="get" class="add-etiquette_form">
-                              <div class="add-etiquette_field-group">
-                                <div class="add-etiquette_row">
-                                  <div class="input-group">
-                                    <p>Libellé</p>
-                                    <input
-                                      type="text"
-                                      class="tab_input"
-                                      maxlength="256"
-                                      placeholder="Libellé de l'étiquette"
-                                    />
-                                  </div>
-                                  <div class="input-group">
-                                    <p>
-                                      Coût unitaire
-                                      <span class="t_g">(en €/HT)</span>
-                                    </p>
-                                    <input
-                                      type="text"
-                                      class="tab_input"
-                                      maxlength="256"
-                                      placeholder="0"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="cta-group">
-                                <a href="#" class="p_link">Annuler</a
-                                ><input
-                                  type="submit"
-                                  value="Supprimer"
-                                  data-wait="Patientez..."
-                                  class="button bg_e t_w w-button"
-                                /><input
-                                  type="submit"
-                                  value="Valider"
-                                  data-wait="Patientez..."
-                                  class="button bg_gp t_w w-button"
-                                />
-                              </div>
-                            </form>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="etiquette_table-row-content table_row">
-                      <div class="etiquette_table-row">
-                        <div class="table_cell">
-                          <p class="p_large">Petite étiquette 0833TY</p>
-                        </div>
-                        <div class="table_cell">
-                          <p class="p_large">0.230</p>
-                        </div>
-                        <div class="table_cell">
-                          <a href="#" class="edit-line-trigger"
-                            ><img
-                              src="../images/edit-line.svg"
-                              loading="lazy"
-                              alt=""
-                              class="no-click"
-                          /></a>
-                        </div>
-                      </div>
-                      <div class="table_modal">
-                        <div class="add-etiquette edit">
-                          <div class="form-block">
-                            <form method="get" class="add-etiquette_form">
-                              <div class="add-etiquette_field-group">
-                                <div class="add-etiquette_row">
-                                  <div class="input-group">
-                                    <p>Libellé</p>
-                                    <input
-                                      type="text"
-                                      class="tab_input"
-                                      maxlength="256"
-                                      placeholder="Libellé de l'étiquette"
-                                    />
-                                  </div>
-                                  <div class="input-group">
-                                    <p>
-                                      Coût unitaire
-                                      <span class="t_g">(en €/HT)</span>
-                                    </p>
-                                    <input
-                                      type="text"
-                                      class="tab_input"
-                                      maxlength="256"
-                                      placeholder="0"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="cta-group">
-                                <a href="#" class="p_link">Annuler</a
-                                ><input
-                                  type="submit"
-                                  value="Supprimer"
-                                  data-wait="Patientez..."
-                                  class="button bg_e t_w w-button"
-                                /><input
-                                  type="submit"
-                                  value="Valider"
-                                  data-wait="Patientez..."
-                                  class="button bg_gp t_w w-button"
-                                />
-                              </div>
-                            </form>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="etiquette_table-row-content table_row">
-                      <div class="etiquette_table-row">
-                        <div class="table_cell">
-                          <p class="p_large">Petite étiquette 0833TY</p>
-                        </div>
-                        <div class="table_cell">
-                          <p class="p_large">0.230</p>
-                        </div>
-                        <div class="table_cell">
-                          <a href="#" class="edit-line-trigger"
-                            ><img
-                              src="../images/edit-line.svg"
-                              loading="lazy"
-                              alt=""
-                              class="no-click"
-                          /></a>
-                        </div>
-                      </div>
-                      <div class="table_modal">
-                        <div class="add-etiquette edit">
-                          <div class="form-block">
-                            <form method="get" class="add-etiquette_form">
-                              <div class="add-etiquette_field-group">
-                                <div class="add-etiquette_row">
-                                  <div class="input-group">
-                                    <p>Libellé</p>
-                                    <input
-                                      type="text"
-                                      class="tab_input"
-                                      maxlength="256"
-                                      placeholder="Libellé de l'étiquette"
-                                    />
-                                  </div>
-                                  <div class="input-group">
-                                    <p>
-                                      Coût unitaire
-                                      <span class="t_g">(en €/HT)</span>
-                                    </p>
-                                    <input
-                                      type="text"
-                                      class="tab_input"
-                                      maxlength="256"
-                                      placeholder="0"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="cta-group">
-                                <a href="#" class="p_link">Annuler</a
-                                ><input
-                                  type="submit"
-                                  value="Supprimer"
-                                  data-wait="Patientez..."
-                                  class="button bg_e t_w w-button"
-                                /><input
-                                  type="submit"
-                                  value="Valider"
-                                  data-wait="Patientez..."
-                                  class="button bg_gp t_w w-button"
-                                />
-                              </div>
-                            </form>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    </form>
                   </div>
                 </div>
               </div>
@@ -941,6 +791,14 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".checkbox_field").click(function () {
+          $(".prods-brut_submit").addClass("active");
+        });
+      });
+    </script>
 
     <script src="../js/navigation.js" type="text/javascript"></script>
     <script src="../js/table.js" type="text/javascript"></script>
